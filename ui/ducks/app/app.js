@@ -42,7 +42,7 @@ export default function reduceApp(state = {}, action) {
     requestAccountTabs: {},
     openMetaMaskTabs: {},
     currentWindowTab: {},
-    showWhatsNewPopup: true,
+    showWhatsNewPopup: false,
     singleExceptions: {
       testKey: null,
     },
